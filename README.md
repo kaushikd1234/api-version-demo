@@ -1,7 +1,5 @@
 In Spring Boot, you can implement API versioning using content negotiation. Content negotiation involves the server selecting the appropriate representation of a resource based on the client's preferences. Here's an example of how you can achieve API versioning using content negotiation:
 
-java
-Copy code
 @RestController
 @RequestMapping("/api")
 public class ApiController {
@@ -18,6 +16,7 @@ public class ApiController {
         }
     }
 }
+
 In this example:
 
 We have a controller class ApiController with a method getData mapped to the /api/data endpoint.
